@@ -1,0 +1,29 @@
+
+
+/* grtting rid of defaulr ,margins and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* it means milera aija by bibek sir */
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("https://images5.alphacoders.com/940/thumb-1920-940617.png");
+    /* always write inverted comma for url */
+    background-size: cover;
+    
+}
+
+h1  {
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:yellow;
+}
